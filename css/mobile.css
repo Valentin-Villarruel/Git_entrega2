@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menuhamburgesa {
+        margin-top: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .property img,
+    .fotos img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .social-logos {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
